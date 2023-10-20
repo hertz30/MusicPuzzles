@@ -13,6 +13,6 @@ Sorting Keys: Sorting music into the correct key signature, challenging players 
 
 Musical Trivia: Arranging musical segments to recreate well-known pieces of music, allowing players to showcase their knowledge of music culture.
 
-The game will feature a comprehensive tutorial to introduce players to the basic concepts of music and gameplay so that the game is accessible even to those with no game knowledge. The game is drag-and-drop and the music should be fairly intuitive.
+The game will feature a tutorial to introduce players to the basic concepts of music and gameplay so that the game is accessible even to those with no prior music knowledge. The game is drag-and-drop and the key music concepts of harmony and intervals should be fairly intuitive.
 
 As of v1.0, Haiying Zeng is the only person working on this project. All music segments used in the game are played by Haiying Zeng. Implemented using Wwise.
