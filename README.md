@@ -1,6 +1,8 @@
 # README v1.0
 Game Title: Music Puzzles
+
 Genre: Puzzle
+
 Platform: WebGL
 
 Music Puzzles is a puzzle game that blends the world of music and gaming. Players will use their musical knowledge and intuition to complete various challenges, making it enjoyable for a wide range of skill levels, including those with no prior music experience. The game aims to engage players through a series of music-based puzzles that are both fun and educational.
