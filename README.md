@@ -1,4 +1,4 @@
-# README v1.0
+# README v1.1
 Game Title: Music Puzzles
 
 Genre: Puzzle
@@ -17,4 +17,6 @@ Musical Trivia: Arranging musical segments to recreate well-known pieces of musi
 
 The game will feature a tutorial to introduce players to the basic concepts of music and gameplay so that the game is accessible even to those with little prior music knowledge. The key music concepts of harmony and intervals should be fairly intuitive.
 
-As of v1.0, Haiying Zeng is the only person working on this project. All music segments used in the game are played by Haiying Zeng. Implemented using Wwise.
+As of v1.1, Haiying Zeng is the only person working on this project. All music segments used in the game are played by Haiying Zeng. Implemented using FMOD.
+
+1.1 Update: Project has been downsized due to unforeseen technical difficulties, mostly stemming from WebGL eccentricities. I plan to make a downloadable version for Windows in the future.
