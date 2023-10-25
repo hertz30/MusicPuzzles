@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{47A3469D-3D84-4362-AB92-4FEF5DA65A29}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{47A3469D-3D84-4362-AB92-4FEF5DA65A29}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Tutorial" ID="{CF8032C0-3076-4D94-A455-A79E0F513F5A}" ShortID="950798615">
+					<ChildrenList>
+						<Event Name="Tutorial_01" ID="{A4E74985-95C5-4529-AC2B-F5B3B6382C78}">
+							<ChildrenList>
+								<Action Name="" ID="{01F4205E-C037-4557-8BC0-03F94853E650}" ShortID="130715204">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Tutorial" ID="{19A389ED-818E-41DB-A4A5-6D1E63CB4C7C}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Tutorial_02" ID="{AB623281-C717-4A25-8EE9-DB007FDFBE1A}">
+							<ChildrenList>
+								<Action Name="" ID="{AB6CD608-7F27-4288-A7D0-FEAF9D6E8518}" ShortID="38201912">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Tutorial_01" ID="{89CEA141-63D6-45E0-9FF0-7952F0C4CC97}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Tutorial_03" ID="{389F4CF3-4456-49BD-AE78-D42247C030D1}">
+							<ChildrenList>
+								<Action Name="" ID="{C3C367E6-FDED-4604-BA6E-2EA37BC52749}" ShortID="203470538">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Tutorial_02" ID="{9865A949-BB8B-4088-9690-6114075FE8F6}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Tutorial_04" ID="{F367F436-81A9-46A7-A413-B61D445B487C}">
+							<ChildrenList>
+								<Action Name="" ID="{E6E1C9E7-09E5-4B06-9234-2A2C3480EAD9}" ShortID="669733777">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Tutorial_03" ID="{7CE15EC1-F8D4-45B2-BFE1-5ACCBC229BC1}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Level1" ID="{36D85A73-3382-4CF1-A767-B34736DA48BA}" ShortID="811611093">
+					<ChildrenList>
+						<Event Name="Level1_01" ID="{C71F1E45-F4CD-4D4C-A472-EEF1FF7ACA45}">
+							<ChildrenList>
+								<Action Name="" ID="{3D51637B-368B-4ADE-A46B-21EF9070D2CD}" ShortID="425896703">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Level 1" ID="{401451DE-3F9C-455B-AD0A-960713120EDD}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level1_02" ID="{34C0B11D-7A17-4BED-AB05-567E17A43FE2}">
+							<ChildrenList>
+								<Action Name="" ID="{CB0F5C36-38F6-462E-9269-B2D13D1AF808}" ShortID="929415065">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Level 1_01" ID="{056C4C95-4DE2-4534-8AAD-337508D15A14}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level1_03" ID="{0F6E6047-06A4-4068-97E3-527FB634CB26}">
+							<ChildrenList>
+								<Action Name="" ID="{243FD7E2-A2E9-4391-A166-08CBD13A84C5}" ShortID="971435318">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Level 1_02" ID="{14C8BE49-2CDD-4F84-B68D-F0F483EC9D97}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level1_04" ID="{44A0FA72-8B67-4B86-A637-01AC750F8BAC}">
+							<ChildrenList>
+								<Action Name="" ID="{F6DCB3CD-0F9D-4528-A42F-D5665F5B71D8}" ShortID="274191340">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Level 1_03" ID="{E30742DC-49E4-4017-8048-6471A013D827}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level1_06" ID="{0CB3FABF-0897-418E-9C18-24577487A80E}">
+							<ChildrenList>
+								<Action Name="" ID="{817EAAF6-C57D-4E09-A149-52E1004F8133}" ShortID="464297775">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Level 1_05" ID="{3462C6B4-424E-4091-9940-489DC9B7E28D}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level1_08" ID="{30C298B9-C3CB-4A2C-9E63-F4B9A14DBAC5}">
+							<ChildrenList>
+								<Action Name="" ID="{81D2E0C3-594B-4E88-828C-280DF7E7682C}" ShortID="880791705">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Level 1_07" ID="{D2343B7A-9FAB-45DB-A906-AF7A484D2CAF}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level1_07" ID="{5DF31E47-52F5-4029-92D4-66CD1F703441}">
+							<ChildrenList>
+								<Action Name="" ID="{25E84209-CF95-4EE2-A95F-1A228D74CF05}" ShortID="667906908">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Level 1_06" ID="{0F83EDBC-8CA1-488F-93BA-96D1239E70CE}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level1_05" ID="{61060051-DF3D-4730-93BF-4D6B9AD6D4F2}">
+							<ChildrenList>
+								<Action Name="" ID="{8A725188-F587-4C07-A2D7-C1E57039F745}" ShortID="247483871">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Level 1_04" ID="{BB726776-2178-469C-8065-8CE597FCACA0}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Level2" ID="{21EAFCE7-7BB9-437F-9D64-B68594869D74}" ShortID="513066594">
+					<ChildrenList>
+						<Event Name="Level2_MinorA" ID="{70005192-460E-4D8F-9644-F8D3A2668F6C}">
+							<ChildrenList>
+								<Action Name="" ID="{1F4C7207-E309-4B5D-87E0-6380C560880F}" ShortID="1005380510">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Level 2 Part A (C minor)" ID="{149B9FE9-6349-4DB9-98D2-E33061FD9653}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level2_MinorB" ID="{B3BD9A57-79C9-4898-A2BF-6442C1FE8270}">
+							<ChildrenList>
+								<Action Name="" ID="{F03BA59D-69FB-4286-80A2-DDBF8D3C0CE6}" ShortID="252454570">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Level 2 Part B (Cminor)_01" ID="{B8111513-0FBF-47F0-A05C-FC01578BAC1D}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level2_MajorA" ID="{4E7D34CD-4D14-4793-8680-495051DD807C}">
+							<ChildrenList>
+								<Action Name="" ID="{13B1E90F-6CD2-48AD-98E7-B3A787E67303}" ShortID="620538516">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Level 2 Part A (C major)" ID="{8560BCFF-757B-4CC6-A924-B75A80081D66}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level2_MajorB" ID="{9568620B-BF33-4775-81DA-FB605EA2FAD0}">
+							<ChildrenList>
+								<Action Name="" ID="{E7BB4C5F-892D-488A-9B2D-1F7BF7280F15}" ShortID="11736913">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Level 2 Part B (C major)" ID="{0C850C2F-9CFB-4AC8-BB9F-0D4C6C2C409D}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ChallengeLevel" ID="{4CB9F4E4-1C64-4F6D-B61B-4559D8BD5B08}" ShortID="368624304">
+					<ChildrenList>
+						<Folder Name="Chords" ID="{1CD9D918-1D48-4D7A-BD16-DBA9E1730E3E}" ShortID="745908541">
+							<ChildrenList>
+								<Event Name="Chord_01" ID="{DA43DA41-0C1E-4084-9C46-772825DB7F04}">
+									<ChildrenList>
+										<Action Name="" ID="{FFE4AF41-1E7A-497B-A6F8-06F447AE490E}" ShortID="271952336">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="_Challenge Level A" ID="{D1CA23B1-C1E1-4DF0-AB4B-EBA0DC8C5F0B}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Chord_07" ID="{2F92C5F7-DD51-4504-B202-E73B2C8EBC70}">
+									<ChildrenList>
+										<Action Name="" ID="{E5ECFAD9-1A57-4714-9510-FC01F275EA45}" ShortID="721461820">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="_Challenge Level A_06" ID="{9B2C04D6-56DA-4876-9C8A-C94169D164F5}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Chord_03" ID="{BA08C571-1993-4A91-9D9B-C29A1BDAF41E}">
+									<ChildrenList>
+										<Action Name="" ID="{E974FB5E-7599-4EE1-997A-2DB131837C13}" ShortID="112501881">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="_Challenge Level A_02" ID="{5D01215A-28EC-4B81-857E-DE0DC49B0FA8}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Chord_05" ID="{E9132892-1104-44B4-AFAD-B63D2CD83FBF}">
+									<ChildrenList>
+										<Action Name="" ID="{F97AF9BF-EE5E-4D92-9921-1D21FD6D463C}" ShortID="21617969">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="_Challenge Level A_04" ID="{3CB7A739-03C6-4DA7-AF60-F2CF0A216C3A}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Chord_06" ID="{8542DD7A-80F1-48B8-AC02-3D6C6C3D4898}">
+									<ChildrenList>
+										<Action Name="" ID="{12789996-FC85-4FA3-9902-E25D80A652A4}" ShortID="290908607">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="_Challenge Level A_05" ID="{6D1F3CE8-3CAE-4045-88E8-AEF4E37CE231}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Chord_08" ID="{474F2B17-41C7-4E2B-AEE9-518291311832}">
+									<ChildrenList>
+										<Action Name="" ID="{C68E2ADA-44FE-4A75-AE3F-A54DC78753A0}" ShortID="570105499">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="_Challenge Level A_07" ID="{E456609F-70C9-45E2-8A5A-8C633EDA0A63}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Chord_04" ID="{E6C82468-E1F0-4876-BE7D-8B9109545D7A}">
+									<ChildrenList>
+										<Action Name="" ID="{7AB55F5C-A445-4ED0-9F3E-0B108AD6947F}" ShortID="746833052">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="_Challenge Level A_03" ID="{82F39E14-1E8E-41A0-8CFB-54E51B2D749B}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Chord_02" ID="{3F79A284-8568-4A2D-AF37-8488F7D83B26}">
+									<ChildrenList>
+										<Action Name="" ID="{906E2283-96DB-4899-BDF3-EAEE883237A9}" ShortID="820741007">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="_Challenge Level A_01" ID="{D48088F8-0955-4464-9097-6166F60390FC}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Melody" ID="{9B1EF7EB-9057-4FE0-B9A4-468CAA181FB0}" ShortID="829343502"/>
+						<Event Name="CanonMelody_04" ID="{A876225F-8601-4293-9E8D-CA75957E0950}">
+							<ChildrenList>
+								<Action Name="" ID="{F1B0FCBE-0DF7-4663-8650-4D5D950420CD}" ShortID="375106340">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Challenge Level B_03" ID="{CFA34E35-4DBB-42B8-B4C1-E99AACD6D2D7}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CanonMelody_06" ID="{2697D4FF-C3E9-4B29-AAFB-935BEC6A654B}">
+							<ChildrenList>
+								<Action Name="" ID="{4E0F04A8-B4E7-410C-9755-CDACB0BA4270}" ShortID="998992257">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Challenge Level B_05" ID="{AEFEEA1B-7C17-461A-AB7F-878E2B3D551C}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CanonMelody_03" ID="{1FAE1828-7E08-43DB-A195-C51B3CE8D493}">
+							<ChildrenList>
+								<Action Name="" ID="{F947A12D-4308-4241-8717-B7CB50EADB3E}" ShortID="898071791">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Challenge Level B_02" ID="{5D8A7105-9E59-4B98-91E2-48978A80F427}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CanonMelody_05" ID="{2A31D444-F99E-4631-9B9B-F4C1C696ED0E}">
+							<ChildrenList>
+								<Action Name="" ID="{E3B55204-E656-4635-942A-78A38B9C6B6D}" ShortID="11756922">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Challenge Level B_04" ID="{C48EB8F7-3981-4085-8548-FC738DCF6D6A}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CanonMelody_07" ID="{782AE2D7-C791-4991-9634-9C9873960506}">
+							<ChildrenList>
+								<Action Name="" ID="{FC574241-6C49-422B-97BF-B829EE752BE3}" ShortID="682000115">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Challenge Level B_06" ID="{E5579D27-AA36-41C3-83E3-1337A868AE99}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CanonMelody_02" ID="{9C741D6F-217D-49CC-BC91-CA5FABA5DE90}">
+							<ChildrenList>
+								<Action Name="" ID="{3B33CC38-0618-4B5B-B5DD-C747401B9675}" ShortID="283395176">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Challenge Level B_01" ID="{6AB07E98-B1B1-4FDC-BEF6-317381FD672C}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CanonMelody_08" ID="{A79E2D69-FA42-4B86-B6EA-5B865CDDE39C}">
+							<ChildrenList>
+								<Action Name="" ID="{C5A5BC9C-9AF3-4E94-A6C5-6F937EAF6105}" ShortID="965551062">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Challenge Level B_07" ID="{91037B2D-4E74-424B-882A-3DD29C5A7D6A}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CanonMelody_01" ID="{7E494928-EC4C-49F2-A3A0-5F54D19458DD}">
+							<ChildrenList>
+								<Action Name="" ID="{7E4F78DD-A585-402F-AA9B-8E7EA32CBE77}" ShortID="252876125">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Challenge Level B" ID="{955CAE97-D388-4650-8021-F50F71D99FE6}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ChallengeCompleted" ID="{F02B35E1-784C-4324-B951-9721186773A7}">
+							<ChildrenList>
+								<Action Name="" ID="{1633D53E-BB96-461F-A536-C68147F61AC3}" ShortID="76563060">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="_Challenge End Sound" ID="{575DF5B5-A54E-40DF-A66B-AA9B12E08759}" WorkUnitID="{86EBF88A-9DA6-4362-B826-3090B2423A11}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

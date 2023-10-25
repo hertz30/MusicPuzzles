@@ -1,0 +1,12 @@
+mergeInto(LibraryManager.library, {
+
+  Congrats1: function () {
+    window.alert("Congratulations on Beating Level 1!");
+  },
+Congrats2: function () {
+    window.alert("Congratulations on Beating Level 2!");
+  },
+Congrats3: function () {
+    window.alert("Congratulations on Beating the Challenge Level!");
+  },
+});
