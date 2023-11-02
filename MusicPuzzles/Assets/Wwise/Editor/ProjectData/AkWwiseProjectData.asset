@@ -1,0 +1,938 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9c8d903a9d69543aff01c7538b2456, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9ec4fdcdc584ca4b8daef61ebce9f4cf
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 9ec4fdcdc584ca4b8daef61ebce9f4cf
+    GuidInternal: 
+    m_lastTime: -8585038392458642065
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 43ec9edc1bebd24898dc2f4437603c00
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 43ec9edc1bebd24898dc2f4437603c00
+    GuidInternal: 
+    m_lastTime: -8585038392459310319
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 43ec9edc1bebd24898dc2f4437603c00
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: b40162a4d0e22041ba5de25934b627dd
+    ParentPath: SoundBanks\Default Work Unit
+    guid: b40162a4d0e22041ba5de25934b627dd
+    GuidInternal: 
+    m_lastTime: -8585038392459817649
+    List: []
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9d46a347843d6243ab924fef5da65a29
+    ParentPath: Events\Default Work Unit
+    guid: 9d46a347843d6243ab924fef5da65a29
+    GuidInternal: 
+    m_lastTime: -8585038370583302190
+    List:
+    - name: CanonMelody_01
+      guid: 2849497e4cecf249a3a05f54d19458dd
+      id: 3477838504
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: CanonMelody_01
+        ObjectType: 3
+        guid: 2849497e4cecf249a3a05f54d19458dd
+      Path: Events\Default Work Unit\ChallengeLevel\CanonMelody_01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: CanonMelody_02
+      guid: 6f1d749c7d21cc49bc91ca5faba5de90
+      id: 3477838507
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: CanonMelody_02
+        ObjectType: 3
+        guid: 6f1d749c7d21cc49bc91ca5faba5de90
+      Path: Events\Default Work Unit\ChallengeLevel\CanonMelody_02
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: CanonMelody_03
+      guid: 2818ae1f087edb43a195c51b3ce8d493
+      id: 3477838506
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: CanonMelody_03
+        ObjectType: 3
+        guid: 2818ae1f087edb43a195c51b3ce8d493
+      Path: Events\Default Work Unit\ChallengeLevel\CanonMelody_03
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: CanonMelody_04
+      guid: 5f2276a8018693429e8dca75957e0950
+      id: 3477838509
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: CanonMelody_04
+        ObjectType: 3
+        guid: 5f2276a8018693429e8dca75957e0950
+      Path: Events\Default Work Unit\ChallengeLevel\CanonMelody_04
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: CanonMelody_05
+      guid: 44d4312a9ef931469b9bf4c1c696ed0e
+      id: 3477838508
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: CanonMelody_05
+        ObjectType: 3
+        guid: 44d4312a9ef931469b9bf4c1c696ed0e
+      Path: Events\Default Work Unit\ChallengeLevel\CanonMelody_05
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: CanonMelody_06
+      guid: ffd49726e9c3294baafb935bec6a654b
+      id: 3477838511
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: CanonMelody_06
+        ObjectType: 3
+        guid: ffd49726e9c3294baafb935bec6a654b
+      Path: Events\Default Work Unit\ChallengeLevel\CanonMelody_06
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: CanonMelody_07
+      guid: d7e22a7891c7914996349c9873960506
+      id: 3477838510
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: CanonMelody_07
+        ObjectType: 3
+        guid: d7e22a7891c7914996349c9873960506
+      Path: Events\Default Work Unit\ChallengeLevel\CanonMelody_07
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: CanonMelody_08
+      guid: 692d9ea742fa864bb6ea5b865cdde39c
+      id: 3477838497
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: CanonMelody_08
+        ObjectType: 3
+        guid: 692d9ea742fa864bb6ea5b865cdde39c
+      Path: Events\Default Work Unit\ChallengeLevel\CanonMelody_08
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ChallengeCompleted
+      guid: e1352bf04c782443b9519721186773a7
+      id: 1304511299
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: ChallengeCompleted
+        ObjectType: 3
+        guid: e1352bf04c782443b9519721186773a7
+      Path: Events\Default Work Unit\ChallengeLevel\ChallengeCompleted
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ChallengeLevel
+      guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      id: 1316065362
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      Path: Events\Default Work Unit\ChallengeLevel
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Chord_01
+      guid: 41da43da1e0c84409c46772825db7f04
+      id: 852835689
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: Chords
+        ObjectType: 4
+        guid: 18d9d91c481d7a4dbd16dba9e1730e3e
+      - ElementName: Chord_01
+        ObjectType: 3
+        guid: 41da43da1e0c84409c46772825db7f04
+      Path: Events\Default Work Unit\ChallengeLevel\Chords\Chord_01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Chord_02
+      guid: 84a2793f68852d4aaf378488f7d83b26
+      id: 852835690
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: Chords
+        ObjectType: 4
+        guid: 18d9d91c481d7a4dbd16dba9e1730e3e
+      - ElementName: Chord_02
+        ObjectType: 3
+        guid: 84a2793f68852d4aaf378488f7d83b26
+      Path: Events\Default Work Unit\ChallengeLevel\Chords\Chord_02
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Chord_03
+      guid: 71c508ba9319914a9d9bc29a1bdaf41e
+      id: 852835691
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: Chords
+        ObjectType: 4
+        guid: 18d9d91c481d7a4dbd16dba9e1730e3e
+      - ElementName: Chord_03
+        ObjectType: 3
+        guid: 71c508ba9319914a9d9bc29a1bdaf41e
+      Path: Events\Default Work Unit\ChallengeLevel\Chords\Chord_03
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Chord_04
+      guid: 6824c8e6f0e17648be7d8b9109545d7a
+      id: 852835692
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: Chords
+        ObjectType: 4
+        guid: 18d9d91c481d7a4dbd16dba9e1730e3e
+      - ElementName: Chord_04
+        ObjectType: 3
+        guid: 6824c8e6f0e17648be7d8b9109545d7a
+      Path: Events\Default Work Unit\ChallengeLevel\Chords\Chord_04
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Chord_05
+      guid: 922813e90411b444afadb63d2cd83fbf
+      id: 852835693
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: Chords
+        ObjectType: 4
+        guid: 18d9d91c481d7a4dbd16dba9e1730e3e
+      - ElementName: Chord_05
+        ObjectType: 3
+        guid: 922813e90411b444afadb63d2cd83fbf
+      Path: Events\Default Work Unit\ChallengeLevel\Chords\Chord_05
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Chord_06
+      guid: 7add4285f180b848ac023d6c6c3d4898
+      id: 852835694
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: Chords
+        ObjectType: 4
+        guid: 18d9d91c481d7a4dbd16dba9e1730e3e
+      - ElementName: Chord_06
+        ObjectType: 3
+        guid: 7add4285f180b848ac023d6c6c3d4898
+      Path: Events\Default Work Unit\ChallengeLevel\Chords\Chord_06
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Chord_07
+      guid: f7c5922f51dd0445b202e73b2c8ebc70
+      id: 852835695
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: Chords
+        ObjectType: 4
+        guid: 18d9d91c481d7a4dbd16dba9e1730e3e
+      - ElementName: Chord_07
+        ObjectType: 3
+        guid: f7c5922f51dd0445b202e73b2c8ebc70
+      Path: Events\Default Work Unit\ChallengeLevel\Chords\Chord_07
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Chord_08
+      guid: 172b4f47c7412b4eaee9518291311832
+      id: 852835680
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: Chords
+        ObjectType: 4
+        guid: 18d9d91c481d7a4dbd16dba9e1730e3e
+      - ElementName: Chord_08
+        ObjectType: 3
+        guid: 172b4f47c7412b4eaee9518291311832
+      Path: Events\Default Work Unit\ChallengeLevel\Chords\Chord_08
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Chords
+      guid: 18d9d91c481d7a4dbd16dba9e1730e3e
+      id: 2614957188
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: Chords
+        ObjectType: 4
+        guid: 18d9d91c481d7a4dbd16dba9e1730e3e
+      Path: Events\Default Work Unit\ChallengeLevel\Chords
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level1
+      guid: 735ad8368233f14ca767b34736da48ba
+      id: 2678230382
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Level1
+        ObjectType: 4
+        guid: 735ad8368233f14ca767b34736da48ba
+      Path: Events\Default Work Unit\Level1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level1_01
+      guid: 451e1fc7cdf44c4da472eef1ff7aca45
+      id: 890313980
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Level1
+        ObjectType: 4
+        guid: 735ad8368233f14ca767b34736da48ba
+      - ElementName: Level1_01
+        ObjectType: 3
+        guid: 451e1fc7cdf44c4da472eef1ff7aca45
+      Path: Events\Default Work Unit\Level1\Level1_01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level1_02
+      guid: 1db1c034177aed4bab05567e17a43fe2
+      id: 890313983
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Level1
+        ObjectType: 4
+        guid: 735ad8368233f14ca767b34736da48ba
+      - ElementName: Level1_02
+        ObjectType: 3
+        guid: 1db1c034177aed4bab05567e17a43fe2
+      Path: Events\Default Work Unit\Level1\Level1_02
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level1_03
+      guid: 47606e0fa406684097e3527fb634cb26
+      id: 890313982
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Level1
+        ObjectType: 4
+        guid: 735ad8368233f14ca767b34736da48ba
+      - ElementName: Level1_03
+        ObjectType: 3
+        guid: 47606e0fa406684097e3527fb634cb26
+      Path: Events\Default Work Unit\Level1\Level1_03
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level1_04
+      guid: 72faa044678b864ba63701ac750f8bac
+      id: 890313977
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Level1
+        ObjectType: 4
+        guid: 735ad8368233f14ca767b34736da48ba
+      - ElementName: Level1_04
+        ObjectType: 3
+        guid: 72faa044678b864ba63701ac750f8bac
+      Path: Events\Default Work Unit\Level1\Level1_04
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level1_05
+      guid: 510006613ddf304793bf4d6b9ad6d4f2
+      id: 890313976
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Level1
+        ObjectType: 4
+        guid: 735ad8368233f14ca767b34736da48ba
+      - ElementName: Level1_05
+        ObjectType: 3
+        guid: 510006613ddf304793bf4d6b9ad6d4f2
+      Path: Events\Default Work Unit\Level1\Level1_05
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level1_06
+      guid: bffab30c97088e419c1824577487a80e
+      id: 890313979
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Level1
+        ObjectType: 4
+        guid: 735ad8368233f14ca767b34736da48ba
+      - ElementName: Level1_06
+        ObjectType: 3
+        guid: bffab30c97088e419c1824577487a80e
+      Path: Events\Default Work Unit\Level1\Level1_06
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level1_07
+      guid: 471ef35df552294092d466cd1f703441
+      id: 890313978
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Level1
+        ObjectType: 4
+        guid: 735ad8368233f14ca767b34736da48ba
+      - ElementName: Level1_07
+        ObjectType: 3
+        guid: 471ef35df552294092d466cd1f703441
+      Path: Events\Default Work Unit\Level1\Level1_07
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level1_08
+      guid: b998c230cbc32c4a9e63f4b9a14dbac5
+      id: 890313973
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Level1
+        ObjectType: 4
+        guid: 735ad8368233f14ca767b34736da48ba
+      - ElementName: Level1_08
+        ObjectType: 3
+        guid: b998c230cbc32c4a9e63f4b9a14dbac5
+      Path: Events\Default Work Unit\Level1\Level1_08
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level2
+      guid: e7fcea21b97b7f439d64b68594869d74
+      id: 2678230381
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Level2
+        ObjectType: 4
+        guid: e7fcea21b97b7f439d64b68594869d74
+      Path: Events\Default Work Unit\Level2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level2_MajorA
+      guid: cd347d4e144d93478680495051dd807c
+      id: 959120156
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Level2
+        ObjectType: 4
+        guid: e7fcea21b97b7f439d64b68594869d74
+      - ElementName: Level2_MajorA
+        ObjectType: 3
+        guid: cd347d4e144d93478680495051dd807c
+      Path: Events\Default Work Unit\Level2\Level2_MajorA
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level2_MajorB
+      guid: 0b62689533bf754781dafb605ea2fad0
+      id: 959120159
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Level2
+        ObjectType: 4
+        guid: e7fcea21b97b7f439d64b68594869d74
+      - ElementName: Level2_MajorB
+        ObjectType: 3
+        guid: 0b62689533bf754781dafb605ea2fad0
+      Path: Events\Default Work Unit\Level2\Level2_MajorB
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level2_MinorA
+      guid: 925100700e468f4d9644f8d3a2668f6c
+      id: 626258632
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Level2
+        ObjectType: 4
+        guid: e7fcea21b97b7f439d64b68594869d74
+      - ElementName: Level2_MinorA
+        ObjectType: 3
+        guid: 925100700e468f4d9644f8d3a2668f6c
+      Path: Events\Default Work Unit\Level2\Level2_MinorA
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level2_MinorB
+      guid: 579abdb3c9799848a2bf6442c1fe8270
+      id: 626258635
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Level2
+        ObjectType: 4
+        guid: e7fcea21b97b7f439d64b68594869d74
+      - ElementName: Level2_MinorB
+        ObjectType: 3
+        guid: 579abdb3c9799848a2bf6442c1fe8270
+      Path: Events\Default Work Unit\Level2\Level2_MinorB
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Melody
+      guid: ebf71e9b5790e04fb9a4468caa181fb0
+      id: 1040548709
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: ChallengeLevel
+        ObjectType: 4
+        guid: e4f4b94c641c6d4fb61b4559d8bd5b08
+      - ElementName: Melody
+        ObjectType: 4
+        guid: ebf71e9b5790e04fb9a4468caa181fb0
+      Path: Events\Default Work Unit\ChallengeLevel\Melody
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Tutorial
+      guid: c03280cf7630944da455a79e0f513f5a
+      id: 3762955427
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Tutorial
+        ObjectType: 4
+        guid: c03280cf7630944da455a79e0f513f5a
+      Path: Events\Default Work Unit\Tutorial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Tutorial_01
+      guid: 8549e7a4c5952945ac2bf5b3b6382c78
+      id: 1882713495
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Tutorial
+        ObjectType: 4
+        guid: c03280cf7630944da455a79e0f513f5a
+      - ElementName: Tutorial_01
+        ObjectType: 3
+        guid: 8549e7a4c5952945ac2bf5b3b6382c78
+      Path: Events\Default Work Unit\Tutorial\Tutorial_01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Tutorial_02
+      guid: 813262ab17c7254a8ee9db007fdfbe1a
+      id: 1882713492
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Tutorial
+        ObjectType: 4
+        guid: c03280cf7630944da455a79e0f513f5a
+      - ElementName: Tutorial_02
+        ObjectType: 3
+        guid: 813262ab17c7254a8ee9db007fdfbe1a
+      Path: Events\Default Work Unit\Tutorial\Tutorial_02
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Tutorial_03
+      guid: f34c9f385644bd49ae78d42247c030d1
+      id: 1882713493
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Tutorial
+        ObjectType: 4
+        guid: c03280cf7630944da455a79e0f513f5a
+      - ElementName: Tutorial_03
+        ObjectType: 3
+        guid: f34c9f385644bd49ae78d42247c030d1
+      Path: Events\Default Work Unit\Tutorial\Tutorial_03
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Tutorial_04
+      guid: 36f467f3a981a746a413b61d445b487c
+      id: 1882713490
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d46a347843d6243ab924fef5da65a29
+      - ElementName: Tutorial
+        ObjectType: 4
+        guid: c03280cf7630944da455a79e0f513f5a
+      - ElementName: Tutorial_04
+        ObjectType: 3
+        guid: 36f467f3a981a746a413b61d445b487c
+      Path: Events\Default Work Unit\Tutorial\Tutorial_04
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: f46b3f4f4a10514bb01111c567e85592
+    ParentPath: Game Parameters\Default Work Unit
+    guid: f46b3f4f4a10514bb01111c567e85592
+    GuidInternal: 
+    m_lastTime: -8585038392459560789
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: d9ba4126da5cac4b8697a8ef637df6d8
+    ParentPath: States\Default Work Unit
+    guid: d9ba4126da5cac4b8697a8ef637df6d8
+    GuidInternal: 
+    m_lastTime: -8585038392459410650
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: d3c9aebdc440f244b3bc9ee8a916b81e
+    ParentPath: Switches\Default Work Unit
+    guid: d3c9aebdc440f244b3bc9ee8a916b81e
+    GuidInternal: 
+    m_lastTime: -8585038392459262691
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 7faa8dd447dbbb4abb28c6d3e1a66806
+    ParentPath: Triggers\Default Work Unit
+    guid: 7faa8dd447dbbb4abb28c6d3e1a66806
+    GuidInternal: 
+    m_lastTime: -8585038392459370499
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

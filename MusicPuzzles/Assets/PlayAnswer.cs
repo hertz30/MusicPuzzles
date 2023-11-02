@@ -49,6 +49,7 @@ public class PlayAnswer : MonoBehaviour
             }
         }
     if ((userAnswer == PlayAnswer.Instance.answer)||(userAnswer == PlayAnswer.Instance.altAnswer)){
+            yield return new WaitForSeconds((PlayAnswer.Instance.delay));
             congrats.Invoke();
         }
     }
