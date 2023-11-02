@@ -59,7 +59,6 @@ public class Play2TrackAnswer : MonoBehaviour
     foreach(var key in Play2TrackAnswer.Instance.answerList){
         Debug.Log("Comparing Answer");
         if (userAnswer == key){
-            yield return new WaitForSeconds((PlayAnswer.Instance.delay));
             congrats.Invoke();
             Debug.Log("Level Completed");
         }
@@ -72,6 +71,7 @@ public class Play2TrackAnswer : MonoBehaviour
         Congrats2();
     }
     public void congrats3(){
+        Play2TrackAnswer.Instance.pieceList[16].GetComponent<FMODUnity.StudioEventEmitter>().Play();
         Congrats3();
     }
     public void congratsTutorial(){
